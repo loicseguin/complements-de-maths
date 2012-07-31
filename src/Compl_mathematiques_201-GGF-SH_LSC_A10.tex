@@ -1,0 +1,290 @@
+%Préambule du fichier
+
+\documentclass[fleqn,twoside,12pt,letterpaper]{article}
+\usepackage{amsmath,amsthm}
+\usepackage{latexsym}
+\usepackage[french]{babel}       % Pour la coupures des mots, nom des divisions
+								 % et quelques commandes supplémentaires
+\usepackage[utf8]{inputenc}    % pour les accents
+\usepackage[T1]{fontenc}
+\usepackage{url}
+\usepackage{textcomp}
+\usepackage[dvips]{graphicx}
+\usepackage{enumerate}
+
+
+
+
+\mathindent = 1cm	
+
+
+%Paramètres de page
+%\voffset=0.75in
+\parindent = 0pt
+\parskip = 10pt
+\topmargin = -25pt
+\headsep = 13pt
+\textheight = 9in
+\oddsidemargin = 0pt%+36.135pt
+\evensidemargin = 0pt%-36.135pt
+\textwidth=16.5cm
+\pagestyle{plain}
+
+\setcounter{secnumdepth}{2}
+
+%Définitions et conventions personnelles
+
+
+%définit la valeur absolue
+\providecommand{\abs}[1]{\lvert#1\rvert}
+
+%abréviation pour la commande nombre (pour la présentation correcte des nombres:
+%virgule, espaces, etc.)
+\newcommand{\nb}{\nombre}
+
+%Écrit les symboles des ensembles de nombres en caractères droits et gras. Pour
+%avoir des caractères à « trait double » il faut remplacer mathbf par mathbb et
+%aussi executer la commande \usepackage(amsfonts)
+\newcommand{\ensemble}[1]{\ensuremath{\mathbf{#1}}}
+\newcommand{\naturels}{\ensemble{N}}
+\newcommand{\entiers}{\ensemble{Z}}
+\newcommand{\rationnels}{\ensemble{Q}}
+\newcommand{\reels}{\ensemble{R}}
+\newcommand{\complexes}{\ensemble{C}}
+
+\newenvironment{titre}{%
+\bfseries %en gras
+\Large %gros caractères
+\baselineskip = 12pt
+\parskip = 20pt
+\begin{center}}
+{\end{center}}
+
+\newenvironment{textepagetitre}{%
+\vspace{20pt}
+\parskip = 12pt
+\begin{center}
+}{
+\end{center}}
+
+	
+%Document
+\begin{document}
+
+\begin{titlepage}\centering
+%\uput[l](0,0){\includegraphics[scale=0.075]{armes}}
+\makebox[0pt]{\kern -2cm \raise -0.8cm\hbox{\includegraphics[scale=0.075]{armes}}}\textbf{\textit{\Large Collège militaire royal de Saint-Jean\\Division des études}}
+\vfill
+{\large\bfseries
+Département des Sciences de la nature
+\vfill
+Plan de cours
+\vfill
+Programme : Sciences humaines, profil général
+\vfill
+Compléments de mathématiques\\ 201-GGF-05
+}
+\vfill
+pondération : 3-2-3\\
+unités : $2\,2/3$
+\vfill
+
+\vfill
+Automne 2010
+\vfill
+Loïc Séguin-Charbonneau\\
+Pavillon DeLéry, bureau 2009\\
+450-358-6777, poste 5762\\
+\url{Loic.Seguin-Charbonneau@cmrsj-rmcsj.ca}
+\vfill
+\textbf{\large Disponibilités :}
+Heures de disponibilités\\
+affichées à mon bureau
+\vfill
+\textbf{\large Version adoptée le 17 août 2010}
+
+
+\end{titlepage}\newpage
+
+
+\section{Présentation du cours}
+
+\subsection{Contribution à la formation de l'élève}
+
+Dans le cours \emph{Compléments de mathématiques} (201-GGF-SH), vous apprendrez
+à manipuler des expressions algébriques, à utiliser des fonctions algébriques et
+transcendantes, et à résoudre des systèmes d'équations linéaires à l'aide de
+méthodes matricielles. Ces notions seront indispensables dans le cours Calcul I
+(201-103-RE). On encourage le développement du sens
+critique, de la rigueur et de l'esprit d'analyse et de synthèse. Les cours
+magistraux seront accompagnés de séances d'exercices au cours desquelles vous
+mettrez en pratique les notions apprises en classe.
+
+\subsection{Compétences développées dans le cours}
+
+  \begin{description}
+    \item[Objectif]\ \\
+    Analyser des fonctions algébriques et
+	transcendantes, et résoudre des systèmes d'équations linéaires.
+    \item[Éléments]\ 
+    \begin{enumerate}
+      \item Établir les propriétés d'une fonction algébrique ou transcendante
+			représentée par son équation ou par son graphique.
+      \item Résoudre des équations à une variable.
+	  \item Résoudre des inéquations à une variable.
+	  \item Modéliser une situation sous forme d'une fonction algébrique ou
+			transcendante.
+	  \item Traduire des problèmes concrets sous forme d'équations.
+	  \item Manipuler les fonctions trigonométriques.
+	  \item Résoudre des systèmes d'équations linéaires à l'aide de méthodes
+			matricielles.
+    \end{enumerate}
+    \item[Liens avec les objectifs de la formation fondamentale du collège]\ \\
+	  Ce cours contribue à l'atteinte de certains objectifs de la formation
+	  fondamentale, notamment ``\emph{ l'acquisition d'une méthode de travail
+	  intellectuel organisée et efficace, le développement des habiletés
+	  d'analyse, de synthèse, de critique à travers un processus de pensée
+	  logique  et la maîtrise des habiletés mathématiques de base de façon à
+	  pouvoir décoder et traiter l'information présentée sous forme numérique.}''
+  \end{description}
+
+
+\section{Contenu du cours et séquence d'apprentissage}
+
+  Chaque semaine, environ 2 heures seront consacrées à la
+  résolution d'exercices en classe. 
+
+  (Note : le temps requis pour chaque section est approximatif)
+
+  \begin{enumerate}
+    \item Concepts fondamentaux de l'algèbre (3 semaines)
+	  \begin{enumerate}
+	    \item les nombres réels
+		\item puissances et racines
+		\item polynômes
+		\item factorisation
+		\item expressions factionnaires
+	  \end{enumerate}
+	
+	\item équations et inéquations (2 semaines)
+	  \begin{enumerate}
+	    \item résolution d'équations du premier degré
+		\item résolution d'équations quadratiques
+		\item résolution d'équations contenant des radicaux
+		\item résolution d'inéquation
+	  \end{enumerate}
+	
+	\item {\bf Examen 1}
+	
+	\item fonctions et graphiques (2 semaines)
+	  \begin{enumerate}
+	    \item rappels de géométrie analytique
+	    \item définitions reliées aux fonctions
+	    \item représentation graphique de fonctions linéaires et
+	    	      quadratiques
+		\item composition de fonctions
+		\item fonctions réciproques
+	  \end{enumerate}
+	
+	\item fonctions exponentielles et logarithmiques (2 semaines)
+	  \begin{enumerate}
+	    \item fonction exponentielle
+	    \item fonction logarithmique
+	    \item résolution d'équations
+	    \item applications
+	  \end{enumerate}
+	
+	\item {\bf Examen 2}
+	
+	\item fonctions trigonométriques (2 semaines)
+	  \begin{enumerate}
+	    \item fonctions sinus, cosinus, tangente
+	    \item identités trigonométriques
+	    \item fonctions trigonométriques inverses
+	  \end{enumerate}
+	
+	\item systèmes d'équations linéaires (3 semaines)
+	  \begin{enumerate}
+	    \item matrices
+	    \item opérations sur les matrices
+	    \item méthode de Gauss
+	    \item résolution d'un système d'équations par la méthode de Gauss
+	  \end{enumerate}
+	
+	\item Révision
+	
+	\item {\bf Examen final}
+  \end{enumerate}
+
+\subsubsection{Modalités de l'examen de reprise}
+
+En cas d'échec au cours, il y a la possibilité d'un examen de reprise.  Les conditions d'admissibilité sont décrites dans les règlements du
+CMR Saint-Jean.
+
+Une note de passage au cours (60 \%) est attribuée à tout élève qui réussit
+l'examen de reprise, sinon la note du cours demeure inchangée.
+
+
+\section{Évaluation}
+
+La note de passage est de 60 \% et tient compte des éléments suivants :
+\begin{center}
+\begin{tabular}{|l|l|c|}
+\hline
+\bfseries{Activités}&\bfseries{Durée}&\bfseries{Pondération}\\\hline\hline
+Quiz (environ 7) & 20 minutes &20\,\%\\\hline
+Examen 1&2 heures&20\,\%\\\hline
+Examen 2&2 heures&20\,\%\\\hline
+Examen final&3 heures&40\,\%\\\hline
+\end{tabular}
+\end{center}
+
+En ce qui concerne la correction des examens,  les critères suivants servent de guide : 
+\begin{enumerate}
+  \item compréhension des définitions ;
+  \item exactitude et clarté de la démarche utilisée et du raisonnement ;
+  \item clarté des graphiques ;
+  \item manipulations algébriques correctes ;
+  \item utilisation correcte de la notation mathématique ;
+  \item réponse finale ;
+  \item une solution correcte mais mal présentée ou jugée trop compliquée, ne méritera pas le maximum de points;
+  \item lorsque nécessaire, une conclusion devra être écrite à l'aide de  phrases complètes.
+\end{enumerate}
+
+\subsubsection{Quiz}
+
+Chaque semaine une liste d'exercices sera distribuée aux étudiants. La semaine suivante, les étudiants devront résoudre un ou deux de ces exercices lors d'un quiz de 20 minutes en classe. Il devrait y avoir un total de 6 à 8 quiz dans la session.
+
+
+\subsubsection{Épreuve synthèse du cours (examen final)}
+
+Cette épreuve individuelle sera un examen écrit portant sur les notions vues en classe.  Il sera d'une durée de 3 heures.  L'examen porte sur tout le contenu du cours.
+
+\subsubsection{Directives particulières}
+
+\begin{enumerate}
+\item Durant les examens, l'utilisation d'une calculatrice, de manuels, livres, cahiers de notes, feuilles de formules, etc. est interdite.
+\item Tous les examens sont comptabilisés.
+\item Un élève qui ne se présente pas à un examen se voit attribuer la note 0 pour cet examen.
+\item Pour toute absence prévisible et justifiée, l'étudiant devra avertir par l'enseignant au moins une semaine avant la tenue de l'examen; faute de quoi, la note sera 0.  Les absences non prévisibles telles que la maladie devront être justifiées auprès de l'enseignant dès le retour en classe.  Dans le cas d'absence justifiée à un examen, la note obtenue à l'examen final remplacera la note manquante.
+\end{enumerate}
+ 
+
+\section{Médiagraphie}
+
+{\bf (Obligatoire)}
+Swokowski, E. W. et Cole, J. A. ; \emph{Algèbre, $9^{\text{e}}$ édition} ; DeBoeck Université, Paris, 1998.
+
+Gingras, M. ; \emph{Mathématique d'appoint, $2^{\text{e}}$ édition} ; Éditions Études Vivantes, Laval, 1999.
+
+
+\section{Autres politiques}
+
+\subsubsection{Qualité du français}
+Un français oral et écrit de qualité est exigé en tout temps dans la classe.
+
+\subsubsection{Participation}
+L'apprentissage des mathématiques nécessite une implication active. En classe, votre participation sera souvent requise et il en va de votre réussite de participer aux activités. Quiconque nuit au déroulement du cours ou fait preuve de manque de respect sera invité à quitter la classe.
+
+
+\end{document}
