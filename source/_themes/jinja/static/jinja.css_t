@@ -38,6 +38,7 @@ div.documentwrapper {
 
 div.bodywrapper {
     margin: 0 0 0 {{ sidebar_width }};
+    padding-left: 20px;
 }
 
 div.sphinxsidebar {
@@ -63,7 +64,7 @@ div.banner {
 div.banner h1 {
     color: #3E4349;
     margin: 0 0 5px 0;
-    padding: 0 0 0 250px;
+    padding: 0 0 0 270px;
     display: block;
     font-family: {{ header_font_family }};
     font-weight: normal;
@@ -73,7 +74,7 @@ div.banner h1 {
 div.banner h2 {
     text-transform: uppercase;
     margin: 0;
-    padding: 0 0 0 250px;
+    padding: 0 0 0 270px;
     font-size: 0.7em;
     color: #888;
 }
@@ -121,7 +122,7 @@ div.sphinxsidebar a:hover {
 }
  
 div.sphinxsidebar {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.5;
 }
 
@@ -139,7 +140,7 @@ div.sphinxsidebar h3,
 div.sphinxsidebar h4 {
     font-family: {{ font_family }};
     color: #444;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: normal;
     margin: 0 0 5px 0;
     padding: 0;
@@ -161,12 +162,17 @@ div.sphinxsidebar h3 a:hover {
 }
  
 div.sphinxsidebar p {
-    color: #555;
-    margin: 10px 0;
+    color: #444;
+    margin: 5px 0 3px;
+}
+
+div.sphinxsidebar address {
+    color: #444;
+    margin: 0 0 15px;
 }
 
 div.sphinxsidebar ul {
-    margin: 10px 0;
+    margin: 0 0 15px;
     padding: 0;
     color: #000;
 }

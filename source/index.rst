@@ -3,7 +3,24 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. image:: _static/manyfuncs.png
+.. plot::
+
+    import matplotlib.pyplot as plt
+    import numpy as np
+    x = np.linspace(0, 10, 1000)
+    ax = plt.figure().add_subplot(111)
+    ax.plot(x, np.sin(x), x, np.cos(x), x, np.exp(x), x, x**2, x, x, x, np.log(x))
+    ax.text(1.5,8, '$e^x$', fontsize=14, color='red')
+    ax.text(3,8, '$x^2$', fontsize=14, color='cyan')
+    ax.text(4.3,5, '$x$', fontsize=14, color='purple')
+    ax.text(6,2.3, '$\log(x)$', fontsize=14, color='#ffcc00')
+    ax.text(4.2,0.4, '$\cos(x)$', fontsize=14, color='green')
+    ax.text(6.4,-0.3, '$\sin(x)$', fontsize=14, color='blue')
+    ax.set_ylim([-2, 10])
+    ax.xaxis.set_ticks([])
+    ax.yaxis.set_ticks([])
+    plt.tight_layout()
+    plt.show()
 
 
 ====================
