@@ -1,0 +1,15 @@
+{%- extends "basic/layout.html" %}
+{%- block relbar1 %}
+<div class="banner document">
+    <img src="_static/logo.png" />
+    <h1><a href="{{ pathto(master_doc) }}">Compléments de mathématiques</a></h1>
+    <h2>Un cours sur l'algèbre de base :: Session {{ release }}</h2>
+</div>
+{% endblock %}
+{%- block relbar2 %}{% endblock %}
+{%- block footer %}
+    <div class="footer">
+      &copy; Copyright {{ copyright }}.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+    </div>
+{%- endblock %}

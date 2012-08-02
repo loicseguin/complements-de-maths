@@ -1,0 +1,16 @@
+import matplotlib.pyplot as plt
+import numpy as np
+x = np.linspace(-2, 4)
+ax = plt.figure().add_subplot(111)
+ax.plot(x, 2*x**2 - 3*x -1)
+ax.spines['left'].set_position('zero')
+ax.spines['right'].set_color('none')
+ax.spines['bottom'].set_position('zero')
+ax.spines['top'].set_color('none')
+ax.spines['left'].set_smart_bounds(True)
+ax.spines['bottom'].set_smart_bounds(True)
+ax.xaxis.set_ticks_position('bottom')
+ax.yaxis.set_ticks_position('left')
+ax.set_xlabel('$x$', fontsize=16)
+ax.set_ylabel('$f(x)$', fontsize=16)
+plt.show()
