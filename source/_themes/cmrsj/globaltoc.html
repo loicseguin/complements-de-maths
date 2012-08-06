@@ -1,19 +1,11 @@
 {#
-    globaltoc.html
-    ~~~~~~~~~~~~~~
+    basic/globaltoc.html
+    ~~~~~~~~~~~~~~~~~~~~
 
-    Sphinx sidebar template: global site navigation
+    Sphinx sidebar template: global table of contents.
 
-    :copyright: Copyright 2012, Loïc Séguin-Charbonneau.
+    :copyright: Copyright 2007-2011 by the Sphinx team, see AUTHORS.
     :license: BSD, see LICENSE for details.
 #}
-
-<h3>Menu</h3>
-<nav id="main-nav">
-    <ul>
-        <li><a href="{{ pathto( master_doc ) }}">Accueil</a></li>
-        <li><a href="{{ pathto( 'plandecours' ) }}">Plan de cours</a></li>
-        <li><a href="{{ pathto( 'notesdecours' ) }}">Notes de cours</a></li>
-        <li><a href="{{ pathto( 'devoirs' ) }}">Devoirs</a></li>
-    </ul>
-</nav>
+<h3><a href="{{ pathto(master_doc) }}">Menu</a></h3>
+{{ toctree() }}

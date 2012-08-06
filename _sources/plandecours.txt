@@ -1,3 +1,8 @@
+=============
+Plan de cours
+=============
+
+
 Présentation du cours
 =====================
 

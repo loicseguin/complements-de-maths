@@ -40,3 +40,12 @@ Horaire
 =======
 Le lundi de 8h30 à 11h30, local DeLéry 2001.
 
+Contenu du site
+===============
+
+.. toctree::
+    :titlesonly:
+
+    plandecours
+    notesdecours
+    devoirs
