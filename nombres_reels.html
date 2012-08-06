@@ -1,0 +1,176 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Les nombres réels &mdash; Compléments de mathématiques 2012.A documentation</title>
+    
+    <link rel="stylesheet" href="_static/cmrsj.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '2012.A',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="Compléments de mathématiques 2012.A documentation" href="index.html" />
+    <link rel="up" title="Notes de cours" href="notesdecours.html" />
+    <link rel="next" title="Devoirs" href="devoirs.html" />
+    <link rel="prev" title="Les fonctions de base" href="fonctions.html" /> 
+  </head>
+  <body>
+<div class="banner document">
+    <img src="_static/logo.png" />
+    <h1><a href="index.html">Compléments de mathématiques</a></h1>
+    <h2>Un cours sur l'algèbre de base :: Session 2012.A</h2>
+</div>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="les-nombres-reels">
+<h1>Les nombres réels<a class="headerlink" href="#les-nombres-reels" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="ensembles-de-nombres">
+<h2>Ensembles de nombres<a class="headerlink" href="#ensembles-de-nombres" title="Lien permanent vers ce titre">¶</a></h2>
+<dl class="docutils">
+<dt>Nombres naturels</dt>
+<dd><p class="first"><span class="math">\(\mathbb{N} = \{1, 2, 3, \ldots\}\)</span></p>
+<p class="last">Les nombres naturels sont ceux qu&#8217;on utilise pour compter. Noter que dans
+notre cours, l&#8217;ensemble des nombres naturels n&#8217;inclut <em>pas</em> le zéro.</p>
+</dd>
+<dt>Nombres entiers</dt>
+<dd><p class="first"><span class="math">\(\mathbb{Z} = \{\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots \}\)</span></p>
+<p class="last">Les nombres entiers comprennent tous les nombres naturels, le zéro et tout
+les nombres négatifs.</p>
+</dd>
+<dt>Nombres rationnels</dt>
+<dd><p class="first"><span class="math">\(\mathbb{Q} = \left\{\frac{a}{b} \left|\right. \, a \in \mathbb{Z}, b \in \mathbb{Z} \setminus \{ 0 \} \right\}\)</span></p>
+<p class="last">Les nombres rationnels inclut les nombres entiers et toutes les fractions.
+Il est important de noter qu&#8217;une fraction ne peut avoir un dénominateur
+nul.</p>
+</dd>
+<dt>Nombres réels</dt>
+<dd><p class="first"><span class="math">\(\mathbb{R} = \left\{a,b_1 b_2 b_3 \ldots | \, a \in \mathbb{Z}, b_i \in \mathbb{N} \cup \{0\} \right\}\)</span></p>
+<p class="last">Dans notre cours, les nombres réels sont définis comme les nombres qui
+admettent un développement décimal. Les nombres réels inclut les nombres
+rationnels et les nombres dit irrationnels, c&#8217;est-à-dire les nombres dont
+le développement décimal est infini et apériodique (par exemple,
+<span class="math">\(\pi\)</span> et <span class="math">\(\sqrt{2}\)</span>).</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="operations-sur-les-nombres-reels">
+<h2>Opérations sur les nombres réels<a class="headerlink" href="#operations-sur-les-nombres-reels" title="Lien permanent vers ce titre">¶</a></h2>
+<dl class="docutils">
+<dt>Addition</dt>
+<dd><p class="first">L&#8217;addition de nombres réels possède cinq propriétés fondamentales.
+Pour tout <span class="math">\(a, b, c \in \mathbb{R}\)</span>,</p>
+<ol class="last arabic simple">
+<li><strong>Fermeture</strong>: <span class="math">\(a + b \in \mathbb{R}\)</span></li>
+<li><strong>Associativité</strong>: <span class="math">\((a + b) + c = a + (b + c)\)</span></li>
+<li><strong>Commutativité</strong>: <span class="math">\(a + b = b + a\)</span></li>
+<li><strong>Élément neutre</strong>: <span class="math">\(a + 0 = 0 + a = a\)</span></li>
+<li><strong>Élément opposé</strong>: <span class="math">\(a + (-a) = (-a) + a = 0\)</span></li>
+</ol>
+</dd>
+<dt>Soustraction</dt>
+<dd>La soustraction de deux nombres réels est définie comme l&#8217;addition de
+l&#8217;élément opposé: <span class="math">\(a - b = a + (-b)\)</span>.</dd>
+<dt>Multiplication</dt>
+<dd><p class="first">La multiplication de nombres réels possède cinq propriétés fondamentales.
+Pour tout <span class="math">\(a, b, c \in \mathbb{R}\)</span>,</p>
+<ol class="arabic simple">
+<li><strong>Fermeture</strong>: <span class="math">\(a \cdot b \in \mathbb{R}\)</span></li>
+<li><strong>Associativité</strong>: <span class="math">\((a \cdot b) \cdot c = a \cdot (b \cdot c)\)</span></li>
+<li><strong>Commutativité</strong>: <span class="math">\(a \cdot b = b \cdot a\)</span></li>
+<li><strong>Élément neutre</strong>: <span class="math">\(a \cdot 1 = 1 \cdot a = a\)</span></li>
+<li><strong>Élément inverse</strong>: <span class="math">\(a \cdot \frac{1}{a} = \frac{1}{a} \cdot a = 1\)</span></li>
+</ol>
+<p class="last">On note que la multiplication est une façon compacte de répéter une
+addition. Par exemple, plutôt que d&#8217;écrire <span class="math">\(2 + 2 + 2 + 2\)</span>, on
+utilise la multiplication <span class="math">\(2 \cdot 4\)</span>.</p>
+</dd>
+<dt>Division</dt>
+<dd>La division est définie comme la multiplication par l&#8217;inverse: <span class="math">\(a
+\div b = a \cdot \frac{1}{b}\)</span>.</dd>
+</dl>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+
+<h3><a href="index.html">Menu</a></h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="plandecours.html">Plan de cours</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="notesdecours.html">Notes de cours</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="fonctions.html">Les fonctions de base</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Les nombres réels</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="devoirs.html">Devoirs</a></li>
+</ul>
+
+
+  <h3><a href="index.html">Table des matières</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Les nombres réels</a><ul>
+<li><a class="reference internal" href="#ensembles-de-nombres">Ensembles de nombres</a></li>
+<li><a class="reference internal" href="#operations-sur-les-nombres-reels">Opérations sur les nombres réels</a></li>
+</ul>
+</li>
+</ul>
+
+
+<h3>Enseignant</h3>
+<p>Loïc Séguin-C.</p>
+<address>
+    DeLéry 2009 <br />
+    450-358-6777 #5762 <br />
+    loic.seguin-charbonneau@cmrsj-rmcsj.ca
+</address>
+
+<div id="searchbox" style="display: none">
+  <h3>Recherche rapide</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Saisissez un mot clef ou un nom de module, classe ou fonction.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2012, Loïc Séguin-Charbonneau.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+    </div>
+  </body>
+</html>

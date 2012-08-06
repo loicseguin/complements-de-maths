@@ -6,4 +6,5 @@ Notes de cours
     :maxdepth: 1
 
     fonctions
+    nombres_reels
 
