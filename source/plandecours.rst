@@ -2,61 +2,53 @@
 Plan de cours
 =============
 
-
 Présentation du cours
 =====================
 
 Contribution à la formation de l’élève
 --------------------------------------
 
-Dans le cours *Compléments de mathématiques* (201-GGF-SH), vous
-apprendrez à manipuler des expressions algébriques, à utiliser des
-fonctions algébriques et transcendantes, et à résoudre des systèmes
-d’équations linéaires à l’aide de méthodes matricielles. Ces notions
-seront indispensables dans le cours Calcul I (201-103-RE). On encourage
-le développement du sens critique, de la rigueur et de l’esprit
-d’analyse et de synthèse. Les cours magistraux seront accompagnés de
-séances d’exercices au cours desquelles vous mettrez en pratique les
-notions apprises en classe.
-
+Ce cours vise à compléter et à consolider la formation mathématique
+entreprise au niveau secondaire afin de doter l’étudiant des outils
+mathématiques essentiels à la poursuite d’études avancées en science et
+en ingénierie. Les situations d’apprentissage favoriseront le
+développement du raisonnement déductif, la faculté de résoudre des
+problèmes, ainsi que la capacité de modéliser des situations courantes.
 
 Compétences développées dans le cours
 -------------------------------------
 
 Objectif
      
-    Analyser des fonctions algébriques et transcendantes, et résoudre
-    des systèmes d’équations linéaires.
+    Appliquer les mathématiques de base à l’étude des fonctions et à la
+    résolution de problèmes en préparation au cours de calcul.
 
 Éléments
      
 
-    #. Établir les propriétés d’une fonction algébrique ou transcendante
-       représentée par son équation ou par son graphique.
+    #. Approfondir les mathématiques de base, en particulier les notions
+       de polynôme, de fraction algébrique et de fonction.
 
-    #. Résoudre des équations à une variable.
+    #. Décrire les caractéristiques d’une fonction linéaire ou
+       quadratique représentée sous forme symbolique ou graphique.
 
-    #. Résoudre des inéquations à une variable.
+    #. Définir et manipuler les fonctions exponentielles et
+       logarithmiques.
 
-    #. Modéliser une situation sous forme d’une fonction algébrique ou
-       transcendante.
+    #. Définir et manipuler les fonctions trigonométriques.
 
-    #. Traduire des problèmes concrets sous forme d’équations.
-
-    #. Manipuler les fonctions trigonométriques.
-
-    #. Résoudre des systèmes d’équations linéaires à l’aide de méthodes
-       matricielles.
+    #. Étudier les suites et les séries, et faire des preuves par
+       induction.
 
 Liens avec les objectifs de la formation fondamentale du collège
      
     Ce cours contribue à l’atteinte de certains objectifs de la
-    formation fondamentale, notamment “* l’acquisition d’une méthode de
+    formation fondamentale, notamment “*l’acquisition d’une méthode de
     travail intellectuel organisée et efficace, le développement des
     habiletés d’analyse, de synthèse, de critique à travers un processus
-    de pensée logique  et la maîtrise des habiletés mathématiques de
-    base de façon à pouvoir décoder et traiter l’information présentée
-    sous forme numérique.*”
+    de pensée logique et la maîtrise des habiletés mathématiques de base
+    de façon à pouvoir décoder et traiter l’information présentée sous
+    forme numérique.*”
 
 Contenu du cours et séquence d’apprentissage
 ============================================
@@ -78,17 +70,18 @@ d’exercices en classe.
 
    #. expressions factionnaires
 
-#. équations et inéquations (2 semaines)
+#. **Examen 1**
+
+#. Équations et inéquations (2 semaines)
 
    #. résolution d’équations du premier degré
 
    #. résolution d’équations quadratiques
 
-   #. résolution d’équations contenant des radicaux
+   #. résolution d’équations contenant des radicaux ou des valeurs
+      absolues
 
    #. résolution d’inéquation
-
-#. **Examen 1**
 
 #. fonctions et graphiques (2 semaines)
 
@@ -102,6 +95,8 @@ d’exercices en classe.
 
    #. fonctions réciproques
 
+#. **Examen 2**
+
 #. fonctions exponentielles et logarithmiques (2 semaines)
 
    #. fonction exponentielle
@@ -109,10 +104,6 @@ d’exercices en classe.
    #. fonction logarithmique
 
    #. résolution d’équations
-
-   #. applications
-
-#. **Examen 2**
 
 #. fonctions trigonométriques (2 semaines)
 
@@ -122,43 +113,59 @@ d’exercices en classe.
 
    #. fonctions trigonométriques inverses
 
-#. systèmes d’équations linéaires (3 semaines)
+#. **Examen 3**
 
-   #. matrices
+#. suites et séries (3 semaines)
 
-   #. opérations sur les matrices
+   #. suites, séries et notation sigma
 
-   #. méthode de Gauss
+   #. suites arithmétiques et géométriques
 
-   #. résolution d’un système d’équations par la méthode de Gauss
+   #. induction mathématique
+
+   #. analyse combinatoire
 
 #. Révision
 
 #. **Examen final**
-
-Modalités de l’examen de reprise
---------------------------------
-
-En cas d’échec au cours, il y a la possibilité d’un examen de reprise.
-Les conditions d’admissibilité sont décrites dans les règlements du CMR
-Saint-Jean.
-
-Une note de passage au cours (60 %) est attribuée à tout élève qui
-réussit l’examen de reprise, sinon la note du cours demeure inchangée.
 
 Évaluation
 ==========
 
 La note de passage est de 60 % et tient compte des éléments suivants :
 
-================  ==========  ===========
-Activités         Durée       Pondération
-================  ==========  ===========
-Quiz (environ 7)  20 minutes  20%
-Examen 1          2 heures    20%
-Examen 2          2 heures    20%
-Examen final      3 heures    40%
-================  ==========  ===========
+===============  =========  ===============
+**Activités**    **Durée**  **Pondération**
+===============  =========  ===============
+Devoirs et quiz             voir ci-dessous
+Examen 1         1 heures   10%
+Examen 2         2 heures   20%
+Examen 3         2 heures   20%
+Examen final     3 heures   50%
+===============  =========  ===============
+
+Les devoirs et les quiz sont destinés à motiver les étudiants à
+travailler régulièrement et à mesurer leur compréhension de la matière
+vue en classe. Même s’ils ne comptent pas directement pour la note
+finale, l’étudiant doit obtenir au moins 70% pour les devoirs et les
+quiz afin d’être autorisé à écrire l’examen final.
+
+La correction des devoirs et des quiz suit le barème suivant :
+
++------+----------------+------------------------------------------------------+
+| +1   | Succès         | Travail complété, clairement présenté et contenant   |
+|      |                | peu d’erreurs mathématiques                          |
++------+----------------+------------------------------------------------------+
+| 0    | Échec          | Travail complété avec quelques erreurs               |
++------+----------------+------------------------------------------------------+
+| -1   | Inacceptable   | Travail incomplet, mal présenté ou contenant de      |
+|      |                | nombreuses erreurs                                   |
++------+----------------+------------------------------------------------------+
+
+Si l’étudiant obtient la mention **Échec** ou **Inacceptable**, il
+pourra soumettre son travail à nouveau selon les directives données par
+l’enseignant pour obtenir un point supplémentaire (c’est à dire qu’une
+mention Inacceptable devient un Échec, et un Échec devient un Succès).
 
 En ce qui concerne la correction des examens, les critères suivants
 servent de guide :
@@ -181,14 +188,6 @@ servent de guide :
 #. lorsque nécessaire, une conclusion devra être écrite à l’aide de
    phrases complètes.
 
-Quiz
-----
-
-Chaque semaine une liste d’exercices sera distribuée aux étudiants. La
-semaine suivante, les étudiants devront résoudre un ou deux de ces
-exercices lors d’un quiz de 20 minutes en classe. Il devrait y avoir un
-total de 6 à 8 quiz dans la session.
-
 Épreuve synthèse du cours (examen final)
 ----------------------------------------
 
@@ -196,11 +195,22 @@ Cette épreuve individuelle sera un examen écrit portant sur les notions
 vues en classe. Il sera d’une durée de 3 heures. L’examen porte sur tout
 le contenu du cours.
 
+Modalités de l’examen de reprise
+--------------------------------
+
+En cas d’échec au cours, il y a la possibilité d’un examen de reprise.
+Les conditions d’admissibilité sont décrites dans les règlements du CMR
+Saint-Jean.
+
+Une note de passage au cours (60 %) est attribuée à tout élève qui
+réussit l’examen de reprise, sinon la note du cours demeure inchangée.
+
 Directives particulières
 ------------------------
 
 #. Durant les examens, l’utilisation d’une calculatrice, de manuels,
-   livres, cahiers de notes, feuilles de formules, etc. est interdite.
+   livres, cahiers de notes, feuilles de formules, etc. est interdite, à
+   moins d’une mention explicite du contraire.
 
 #. Tous les examens sont comptabilisés.
 
@@ -217,11 +227,22 @@ Directives particulières
 Médiagraphie
 ============
 
-**(Obligatoire)** Swokowski, E. W. et Cole, J. A. ; *Algèbre,
-9e édition* ; DeBoeck Université, Paris, 1998.
+Manuels
+-------
 
-Gingras, M. ; *Mathématique d’appoint, 2e édition* ;
+**(Obligatoire)** Swokowski, E. W. et Cole, J. A. *Algèbre,
+9e édition*.  DeBoeck Université, Paris, 1998.
+
+Gingras, M. *Mathématique d’appoint, 2e édition*.
 Éditions Études Vivantes, Laval, 1999.
+
+Site internet
+-------------
+
+Le site officiel du cours est
+http://loicseguin.github.com/complements-de-maths/. Les énoncés de
+devoirs, le plan de cours et des notes de cours supplémentaires seront
+disponibles sur ce site.
 
 Autres politiques
 =================
