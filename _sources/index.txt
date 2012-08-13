@@ -49,3 +49,4 @@ Contenu du site
     plandecours
     notesdecours
     devoirs
+    ressources

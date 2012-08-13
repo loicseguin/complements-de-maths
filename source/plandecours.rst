@@ -262,3 +262,10 @@ réussite de participer aux activités. Quiconque nuit au déroulement du
 cours ou fait preuve de manque de respect sera invité à quitter la
 classe.
 
+Appareils électroniques
+-----------------------
+L'utilisation de tout appareil électronique (téléphone cellulaire, baladeur,
+ordinateur portable, etc.), à l'exception de la calculatrice, est interdit en
+classe. Un étudiant pris en train d'utiliser un tel appareil se le fera
+confisquer. Le professeur transmettra l'appareil au commandant d'escadron qui
+pourra le remettre à l'étudiant au moment de son choix.

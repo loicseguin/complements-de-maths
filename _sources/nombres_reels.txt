@@ -50,7 +50,8 @@ Addition
 
 Soustraction
     La soustraction de deux nombres réels est définie comme l'addition de
-    l'élément opposé: :math:`a - b = a + (-b)`.
+    l'élément opposé: :math:`a - b = a + (-b)`. Ceci est équivalent à dire que
+    :math:`a - b = c` si et seulement si :math:`a = b + c`.
 
 Multiplication
     La multiplication de nombres réels possède cinq propriétés fondamentales.
@@ -68,5 +69,13 @@ Multiplication
 
 Division
     La division est définie comme la multiplication par l'inverse: :math:`a
-    \div b = a \cdot \frac{1}{b}`.
-    
+    \div b = a \cdot \frac{1}{b}`. Ceci est équivalent à dire que
+    :math:`\frac{a}{b} = c` si et seulement si :math:`a = b \cdot c`.
+
+Au dix propriétés ci-dessus s'ajoute une propriété qui concerne la combinaison
+de l'addition avec la multiplication : la **distributivité**.
+
+.. math::
+
+    a \cdot (b + c) = a \cdot b + a \cdot c
+
