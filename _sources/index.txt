@@ -38,7 +38,15 @@ les notions apprises en classe.
 
 Horaire
 =======
-Le lundi de 8h30 à 11h30, local DeLéry 2001.
+
+Groupe 301
+    jeudi 15h à 16h50, de Léry A2004
+    vendredi 13h à 14h50, de Léry A1006
+
+Groupe 302
+    lundi 10h à 11h50, de Léry A2002
+    vendredi 8h à 9h50, de Léry D2047
+
 
 Contenu du site
 ===============
