@@ -79,3 +79,17 @@ de l'addition avec la multiplication : la **distributivité**.
 
     a \cdot (b + c) = a \cdot b + a \cdot c
 
+
+Relation d'ordre
+================
+
+Il existe une relation d'ordre entre les nombres réels, c'est-à-dire qu'il est
+possible de classer les nombres réels dans un ordre précis. Pour toute paire
+:math:`x`, :math:`y` de nombres réels, une, et une seule des trois relations
+suivantes est vraie :
+
+    - :math:`x < y` (:math:`x` est plus petit que :math:`y`)
+    - :math:`x > y` (:math:`x` est plus grand que :math:`y`)
+    - :math:`x = y` (:math:`x` est égal à :math:`y`)
+
+
