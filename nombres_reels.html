@@ -132,6 +132,90 @@ suivantes est vraie :</p>
 </ul>
 </div></blockquote>
 </div>
+<div class="section" id="valeur-absolue">
+<h2>Valeur absolue<a class="headerlink" href="#valeur-absolue" title="Lien permanent vers ce titre">¶</a></h2>
+<p>La <strong>valeur absolue</strong> d&#8217;un nombre réel <span class="math">\(x\)</span> est définie comme</p>
+<div class="math">
+\[\begin{split}|x| = \begin{cases}
+        x &amp; \text{ si } x \geq 0 \\
+        -x &amp; \text{ si } x &lt; 0
+      \end{cases}\end{split}\]</div>
+<p>Par exemple, <span class="math">\(|5,349| = 5,349\)</span> car <span class="math">\(5.349\)</span> est plus grand que zéro.
+On a aussi <span class="math">\(|-3\pi| = -(-3\pi) = 3\pi\)</span> car <span class="math">\(-3\pi\)</span> est inférieur à
+zéro.</p>
+</div>
+<div class="section" id="distance">
+<h2>Distance<a class="headerlink" href="#distance" title="Lien permanent vers ce titre">¶</a></h2>
+<p>La distance entre deux nombres réels <span class="math">\(a\)</span> et <span class="math">\(b\)</span> est la longueur du
+segment de droite reliant ces deux nombres sur la droite réelle. Si <span class="math">\(a
+\geq b\)</span> alors <span class="math">\(d(a, b) = a - b\)</span>, si <span class="math">\(a &lt; b\)</span> alors <span class="math">\(d(a, b) =
+b - a\)</span>. On peut écrire cette définition de façon plus compacte en utilisant la
+valeur absolue :</p>
+<div class="math">
+\[d(a, b) = | a - b |\]</div>
+<p>Il est important de se rappeler que la distance entre deux nombres est, par
+définition, positive ou nulle.</p>
+</div>
+<div class="section" id="puissances">
+<h2>Puissances<a class="headerlink" href="#puissances" title="Lien permanent vers ce titre">¶</a></h2>
+<p>On a vu que la multiplication correspond, pour les nombres entiers, à une addition
+répétée. De façon similaire, les <strong>puissances</strong> sont définies comme des
+multiplications répétées. Par exemple, plutôt que d&#8217;écrire <span class="math">\(8\cdot 8
+\cdot 8 \cdot 8\)</span>, on peut écrire <span class="math">\(8^4\)</span>.</p>
+<p>Ainsi, si <span class="math">\(n\)</span> est un nombre naturel, on définit, pour tout <span class="math">\(x \in
+\mathbb{R}\)</span>, la <span class="math">\(n\)</span>-ième puissance de <span class="math">\(x\)</span> par</p>
+<div class="math">
+\[x^n = x \cdot x \cdot \ldots \cdot x\]</div>
+<p>où <span class="math">\(x\)</span> est répété <span class="math">\(n\)</span> fois. À partir de cette définition, on peut
+démontrer les propriétés suivantes :</p>
+<blockquote>
+<div><p>Pour tout <span class="math">\(x \in \mathbb{R}\)</span>, <span class="math">\(n, m \in \mathbb{N}\)</span></p>
+<ol class="arabic simple">
+<li><span class="math">\(x^n \cdot x^m = x^{n+m}\)</span></li>
+<li><span class="math">\(\left( x^n \right)^m = x^{nm}\)</span></li>
+</ol>
+</div></blockquote>
+<p>Pour définir les puissances pour tous les exposants entiers, on fait
+l&#8217;observation suivante. Pour obtenir <span class="math">\(x^2\)</span> à partir de <span class="math">\(x^1\)</span>, il
+suffit de multiplier <span class="math">\(x^1\)</span> par <span class="math">\(x\)</span>. De même, pour obtenir
+<span class="math">\(x^3\)</span> à partir de <span class="math">\(x^2\)</span>, il suffit de multiplier par <span class="math">\(x\)</span>. En
+continuant ainsi, on définit toutes les puissances naturelles. Le processus
+fonctionne aussi à l&#8217;inverse. Par exemple, pour obtenir <span class="math">\(x^2\)</span> à partir de
+<span class="math">\(x^3\)</span>, il suffit de diviser <span class="math">\(x^3\)</span> par <span class="math">\(x\)</span>. Pour obtenir
+<span class="math">\(x^1\)</span> à partir de <span class="math">\(x^2\)</span>, il suffit de diviser <span class="math">\(x^2\)</span> par
+<span class="math">\(x\)</span>. En continuant ainsi, on peut définir <span class="math">\(x^0\)</span> comme <span class="math">\(x^1\)</span>
+divisé par <span class="math">\(x\)</span>, i.e.: <span class="math">\(x^0 = 1\)</span>. Ceci fonctionne pour tout <span class="math">\(x
+\in \mathbb{R}\setminus\{0\}\)</span> car on ne peut pas diviser par zéro.</p>
+<p>De même, <span class="math">\(x^{-1} = x^0 / x = 1/x\)</span>. Donc <span class="math">\(x\)</span> à la puissance
+<span class="math">\(-1\)</span> est l&#8217;inverse multiplicatif de <span class="math">\(x\)</span>. En général, <span class="math">\(x^{-n}
+= 1/x^{n}\)</span>. Les deux propriétés ci-dessus sont encore valides pour les exposants
+entiers.</p>
+<p>Pour définir les exposant rationnels, on suppose que les deux propriétés
+ci-dessus sont valides et on définit <span class="math">\(x^{1/n}\)</span> comme le nombre réel
+(positif, si <span class="math">\(n\)</span> est pair) qui,
+lorsqu&#8217;on l&#8217;élève à la <span class="math">\(n\)</span>-ième puissance, donne <span class="math">\(x\)</span>. Par exemple,
+<span class="math">\(8^{1/3}\)</span> est le nombre réel qui, lorsqu&#8217;on l&#8217;élève à la troisième
+puissance donne <span class="math">\(8\)</span>. Évidemment, ce nombre est <span class="math">\(8^{1/3} = 2\)</span>.
+Si <span class="math">\(x\)</span> est négatif, <span class="math">\(x^{1/n}\)</span> n&#8217;est défini que pour <span class="math">\(n\)</span>
+impair.</p>
+<p>De façon générale, <span class="math">\(x^{a/b} = \left( x^{1/b} \right)^a\)</span>.</p>
+<p>Il est fréquent de faire référence à <span class="math">\(x^{1/n}\)</span> comme la <strong>n-ième racine
+principale</strong> de <span class="math">\(x\)</span>, notée <span class="math">\(\sqrt[n]{x}\)</span>. L&#8217;exemple le plus commun
+est la <strong>racine carrée</strong>
+qui correspond à la <strong>deuxième racine principale</strong>. On note que par définition,
+la racine carrée d&#8217;un nombre est toujours positive.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Avertissement</p>
+<p class="last">Soit <span class="math">\(x \in \mathbb{R}\)</span>. Alors <span class="math">\(\sqrt{x^2} = | x|\)</span>. Pourquoi ?
+Il suffit de considérer le cas où <span class="math">\(x\)</span> est négatif. Par exemple, si
+<span class="math">\(x = -2\)</span>, alors <span class="math">\(x^2 = 4\)</span> et <span class="math">\(\sqrt{x^2} = \sqrt{4} = 2
+\ne x\)</span>.</p>
+</div>
+<p>Définir rigoureusement les puissances réelles en général demande beaucoup plus
+de travail. Ici, on se contentera de supposer qu&#8217;il est possible d&#8217;élever un
+nombre positif à n&#8217;importe quelle puissance réelle. Par exemple, <span class="math">\(5^\pi
+\approx 156,99\)</span>.</p>
+</div>
 </div>
 
 
@@ -162,6 +246,9 @@ suivantes est vraie :</p>
 <li><a class="reference internal" href="#ensembles-de-nombres">Ensembles de nombres</a></li>
 <li><a class="reference internal" href="#operations-sur-les-nombres-reels">Opérations sur les nombres réels</a></li>
 <li><a class="reference internal" href="#relation-d-ordre">Relation d&#8217;ordre</a></li>
+<li><a class="reference internal" href="#valeur-absolue">Valeur absolue</a></li>
+<li><a class="reference internal" href="#distance">Distance</a></li>
+<li><a class="reference internal" href="#puissances">Puissances</a></li>
 </ul>
 </li>
 </ul>
