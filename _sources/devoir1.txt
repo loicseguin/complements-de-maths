@@ -2,7 +2,7 @@
 Devoir 1
 ========
 
-**Date de remise : le jeudi 30 septembre 2012**
+**Date de remise : le jeudi 30 août 2012**
 
 #. Voici deux "preuves" qui contiennent évidemment des erreurs.
 

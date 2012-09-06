@@ -8,3 +8,4 @@ Vous trouverez ici la liste des exercices assignés en classe de même que les
 .. toctree::
 
     devoir1
+    devoir2

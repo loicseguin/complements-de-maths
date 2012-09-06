@@ -1,0 +1,113 @@
+\documentclass[]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{wasysym}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \usepackage{fontspec}
+  \ifxetex
+    \usepackage{xltxtra,xunicode}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% Redefine labelwidth for lists; otherwise, the enumerate package will cause
+% markers to extend beyond the left margin.
+\makeatletter\AtBeginDocument{%
+  \renewcommand{\@listi}
+    {\setlength{\labelwidth}{4em}}
+}\makeatother
+\usepackage{enumerate}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={},
+            pdftitle={Devoir 1},
+            colorlinks=true,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\title{Devoir 1}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\textbf{Date de remise : le jeudi 30 septembre 2012}
+
+\begin{enumerate}
+\item
+  Voici deux ``preuves'' qui contiennent évidemment des erreurs.
+
+  \begin{description}
+  \item[\textbf{3 = 0}]
+  On commence à partir de l'expression
+
+  \[x^2 + x + 1 = 0.\]
+
+  En soustrayant $1$ de chaque côté de l'égalité, on obtient
+
+  \[x^2 + x = -1.\]
+
+  En multipliant l'équation :eq:`eq1` par $x$ de part et d'autre de
+  l'égalité, on obtient
+
+  \[x^3 + x^2 + x = 0\]
+
+  et en remplaçant l'équation :eq:`eq2` dans l'équation :eq:`eq3`, on
+  trouve
+
+  \[x^3 - 1 = 0.\]
+
+  De cette dernière équation on tire que $x = 1$. Si on remplace cette
+  valeur de $x$ dans l'équation :eq:`eq1`, on obtient $3
+  = 0$. CQFD.
+  \item[\textbf{1\$ = 1\textcent}]
+  \begin{eqnarray*}
+  1 \$ &=& 100 \cent \\
+  &=& (10 \cent)^2 \\
+  &=& (0,1 \$)^2 \\
+  &=& 0,01 \$ \\
+  &=& 1 \cent
+  \end{eqnarray*}
+
+  CQFD
+  \end{description}
+
+  Pour chacune de ces preuves, déterminer l'erreur et l'expliquer.
+\item
+  Swokowski, p. 13 \#2
+\item
+  Swokowski, p. 13 \#10
+\item
+  Swokowski, p. 13 \#16
+\item
+  Swokowski, p. 13 \#34
+\item
+  \begin{enumerate}[a)]
+  \item
+    Écrire $2.3\overline{416}$ sous forme fractionnaire.
+  \item
+    Écrire $11/14$ sous forme décimale.
+  \end{enumerate}
+\end{enumerate}
+
+\end{document}

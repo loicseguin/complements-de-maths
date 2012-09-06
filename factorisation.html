@@ -7,7 +7,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Notes de cours &mdash; Compléments de mathématiques 2012.A</title>
+    <title>Factorisation &mdash; Compléments de mathématiques 2012.A</title>
     
     <link rel="stylesheet" href="_static/cmrsj.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -26,8 +26,9 @@
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="top" title="Compléments de mathématiques 2012.A" href="index.html" />
-    <link rel="next" title="Les nombres réels" href="nombres_reels.html" />
-    <link rel="prev" title="Plan de cours" href="plandecours.html" /> 
+    <link rel="up" title="Notes de cours" href="notesdecours.html" />
+    <link rel="next" title="Les fonctions de base" href="fonctions.html" />
+    <link rel="prev" title="Les nombres réels" href="nombres_reels.html" /> 
   </head>
   <body>
 <div class="banner document">
@@ -44,14 +45,36 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <div class="section" id="notes-de-cours">
-<h1>Notes de cours<a class="headerlink" href="#notes-de-cours" title="Lien permanent vers ce titre">¶</a></h1>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="nombres_reels.html">Les nombres réels</a></li>
-<li class="toctree-l1"><a class="reference internal" href="factorisation.html">Factorisation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="fonctions.html">Les fonctions de base</a></li>
-</ul>
+  <div class="section" id="factorisation">
+<h1>Factorisation<a class="headerlink" href="#factorisation" title="Lien permanent vers ce titre">¶</a></h1>
+<p>La plupart des problèmes qui font intervenir des polynômes peuvent être résolus
+en factorisant les polynômes impliqués. Voici quelques méthodes pour factoriser
+des polynômes.</p>
+<div class="section" id="mise-en-evidence">
+<h2>Mise en évidence<a class="headerlink" href="#mise-en-evidence" title="Lien permanent vers ce titre">¶</a></h2>
+<p>On a vu que l&#8217;addition et la multiplication de nombres réels possèdent une
+propriété importante, la <strong>distributivité</strong> : <span class="math">\(a (b + c) = ab + ac\)</span>. Si
+on lit cette équation à l&#8217;envers, on obtient que <span class="math">\(ab + ac = a (b + c)\)</span>.
+Cette relation est ce qu&#8217;on appelle une <strong>mise en évidence</strong>.</p>
+<p>Par exemple, on peut factoriser <span class="math">\(3u^3 - 9u^2 + 12\pi u\)</span> en remarquant que
+chaque terme contient un facteur de <span class="math">\(3u\)</span></p>
+<div class="math">
+\[3u^3 - 9u^2 + 12\pi u = 3u (u^2 - 3u + 4\pi)\]</div>
+</div>
+<div class="section" id="mise-en-evidence-double">
+<h2>Mise en évidence double<a class="headerlink" href="#mise-en-evidence-double" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Cette méthode s&#8217;applique à une expression algébrique contenant quatre termes.
+Il se peut que les quatres termes ne possèdent pas un facteur commun, mais que
+pris deux à deux, ils en contiennent un. En général, on pourra appliquer la
+méthode de mise en évidence double avec des expressions de la forme <span class="math">\(ac +
+ad + bc + bd\)</span>. Il suffit de mettre en évidence un facteur de <span class="math">\(a\)</span> pour les
+deux premiers termes et un facteur de <span class="math">\(b\)</span> pour les deux derniers.</p>
+<div class="math">
+\[ac + ad + bc + bd = a(c+d) + b(c+d)\]</div>
+<p>On s&#8217;aperçoit alors que les deux termes obtenus on un facteur <span class="math">\(c+d\)</span> en
+commun. En mettant ce facteur commun en évidence on obtient:</p>
+<div class="math">
+\[ac + ad + bc + bd = (a+b)(c+d)\]</div>
 </div>
 </div>
 
@@ -65,9 +88,11 @@
 <h3><a href="index.html">Menu</a></h3>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="plandecours.html">Plan de cours</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="">Notes de cours</a><ul>
+<li class="toctree-l1 current"><a class="reference internal" href="notesdecours.html">Notes de cours</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="nombres_reels.html">Les nombres réels</a></li>
-<li class="toctree-l2"><a class="reference internal" href="factorisation.html">Factorisation</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Factorisation</a><ul class="simple">
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="fonctions.html">Les fonctions de base</a></li>
 </ul>
 </li>
@@ -75,6 +100,15 @@
 <li class="toctree-l1"><a class="reference internal" href="ressources.html">Ressources</a></li>
 </ul>
 
+
+  <h3><a href="index.html">Table des matières</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Factorisation</a><ul>
+<li><a class="reference internal" href="#mise-en-evidence">Mise en évidence</a></li>
+<li><a class="reference internal" href="#mise-en-evidence-double">Mise en évidence double</a></li>
+</ul>
+</li>
+</ul>
 
 
 <h3>Enseignant</h3>
