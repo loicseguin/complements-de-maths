@@ -45,7 +45,7 @@ Horaire
 
 Groupe 301
     - jeudi 15h à 16h50, de Léry A2004
-    - vendredi 13h à 14h50, de Léry A1006
+    - vendredi 13h à 14h50, de Léry A2002
 
 Groupe 302
     - lundi 10h à 11h50, de Léry A2002
@@ -61,4 +61,5 @@ Contenu du site
     plandecours
     notesdecours
     devoirs
+    exercices
     ressources
