@@ -11,3 +11,4 @@ Vous trouverez ici la liste des exercices assignés en classe de même que les
     devoir2
     devoir3
     devoir4
+    devoir5
